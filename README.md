@@ -35,10 +35,11 @@ P-Tuning 和 Prefix Tuning 作为另外两种参数高效微调方案参与实�
 
 由于 DeBERTa-v2-xxlarge 参数规模较大，代码使用 FP16 加载模型，并启用梯度检查点以降低显存占用。LoRA 和 AdaLoRA 的训练均设置为 2 个 Epoch（其实在第1个epoch时模型就已经收敛了，浪费了一些时间），并通过梯度累积控制显存需求。
 
-##  三. 实验结果
+##  三、 实验结果
 | 序号 | PEFT方法 | Submission Score |
 |---:|---|---:|
 | 1 | lora | **0.93808** |
 | 2 | adalora | **0.93528** |
 | 3 | P-tunning | **0** |
 | 4 | prefix | **0** |
+
