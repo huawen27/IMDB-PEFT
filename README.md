@@ -43,3 +43,10 @@ P-Tuning 和 Prefix Tuning 作为另外两种参数高效微调方案参与实�
 | 3 | P-tunning | **0** |
 | 4 | prefix | **0** |
 
+# IMDB-R-Drop、SCL、Unsloth
+## 实验结果
+| 序号 | 方法 | Submission Score |
+|---:|---|---:|
+| 1 | bert-RDrop | **0.93452** |
+| 2 | bert-SCL | **0.92872** |
+| 3 | deberta-v2-xxlarge-Unsloth | **0** |
