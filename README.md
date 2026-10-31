@@ -47,6 +47,6 @@ P-Tuning 和 Prefix Tuning 作为另外两种参数高效微调方案参与实�
 ## 实验结果
 | 序号 | 方法 | Submission Score |
 |---:|---|---:|
-| 1 | bert-RDrop | **0.93452** |
-| 2 | bert-SCL | **0.92872** |
-| 3 | deberta-v2-xxlarge-Unsloth | **0** |
+| 1 | deberta-v2-xxlarge-Unsloth | **0.96328** |
+| 2 | bert-base-uncased-RDrop | **0.93452** |
+| 3 | bert-base-uncased-SCL | **0.92872** |
